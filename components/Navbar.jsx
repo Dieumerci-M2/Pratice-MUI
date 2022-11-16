@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { Box } from '@mui/material'
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+      <Box sx={{backgroundColor:'gold'}} p={2}>
+          Navbar
+      </Box>
   )
 }
 
