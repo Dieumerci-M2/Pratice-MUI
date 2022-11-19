@@ -16,7 +16,8 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 
 const Sidebar = () => {
   return (
-    <Box sx={ {display: { xs: 'none', sm: 'block' } } } flex={ 2 } p={ 2 }>
+    <Box sx={ { display: { xs: 'none', sm: 'block' } } } flex={ 2 } p={ 2 }>
+      <Box position='fixed'>
       <List>
         <ListItem disablePadding>
           <ListItemButton component='a' href='#home'>
@@ -84,6 +85,7 @@ const Sidebar = () => {
         </ListItem>
       </List>
       </Box>
+    </Box>
   )
 }
 
