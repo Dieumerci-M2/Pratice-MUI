@@ -14,7 +14,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import Person3Icon from '@mui/icons-material/Person3';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 
-const Sidebar = () => {
+const Sidebar = ({mode, setMode}) => {
 
   return (
     <Box sx={ { display: { xs: 'none', sm: 'block' } } } flex={ 2 } p={ 2 } >
@@ -81,7 +81,7 @@ const Sidebar = () => {
             <ListItemIcon>
               <Brightness4Icon />
             </ListItemIcon>
-              <Switch defaultChecked/>
+              <Switch onChange={ e =>setMode(mode === 'light' ? 'dark' : 'light' ) } />
           </ListItemButton>
         </ListItem>
       </List>
