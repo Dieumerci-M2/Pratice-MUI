@@ -67,7 +67,7 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
     }));
 
   return (
-    <AppBar position="fixed">
+    <AppBar position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <CookieIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
