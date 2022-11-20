@@ -13,13 +13,13 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-const Feed = ()=> {
+const Feed = () => {
 
   return (
-    <Box sx={ {display: { xs: 'none', sm: 'block' } } } flex={ 6 } p={ 2 }>
+    <Box flex = { 6 } p={ 2 }>
       <Post />
       <Post />
-      <Post />
+      <Post /> 
       <Post />
       <Post />
       <Post/>
