@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar'
 import { Box, createTheme, Stack } from '@mui/material'
 import AddPost from '../components/AddPost'
 import { ThemeProvider } from '@emotion/react';
+import Drawer from '../components/Drawer';
 
 function App() {
   const [ mode, setMode ] = useState( 'light' )
@@ -26,7 +27,11 @@ function App() {
         <Rightbar />
       </Stack>
       <AddPost/>
-    </Box>
+      </Box>
+      <Stack sx={{alignItems:'center'}}>
+        <Drawer />
+      </Stack>
+      
   </ThemeProvider>
   )
 }
