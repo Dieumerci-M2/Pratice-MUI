@@ -21,7 +21,7 @@ const Sidebar = ({mode, setMode}) => {
       <Box position='fixed'>
       <List>
         <ListItem disablePadding>
-          <ListItemButton component='a' href='#home'>
+          <ListItemButton component='a' href='#'>
             <ListItemIcon>
               <HomeIcon />
             </ListItemIcon>
@@ -29,7 +29,7 @@ const Sidebar = ({mode, setMode}) => {
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>
-          <ListItemButton component='a' href='#pages'>
+          <ListItemButton component='a' href='#'>
             <ListItemIcon>
               <ArticleIcon />
             </ListItemIcon>
@@ -37,7 +37,7 @@ const Sidebar = ({mode, setMode}) => {
           </ListItemButton>
         </ListItem>
          <ListItem disablePadding>
-          <ListItemButton component='a' href='#group'>
+          <ListItemButton component='a' href='#'>
             <ListItemIcon>
               <GroupAddIcon />
             </ListItemIcon>
